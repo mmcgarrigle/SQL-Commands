@@ -3,3 +3,32 @@ show tables;
 create database if not exists world;
 use world;
 source world.sql;
+
+Linux Commands:
+
+    man                             - Manual
+    man man                        - Command glossary for Linux
+    ls man                          - shows all ls commands
+    sudo apt update                 - update all aplications
+    sudo apt upgrade -y             - as above - skips ok to continue question
+    touch test.txt                  
+    ls
+    touch test1.txt
+    touch test2.txt
+    ls
+    touch a.txt
+    touch 6798.txt
+    ls
+    touch 6798.java
+    touch 6798.c
+    touch 67fdfsa.py
+    ls
+    ls *.txt
+    ls test*.txt
+    ls t*st.txt
+    uname -r
+    who
+    user=$(who)
+    echo 'Hello World'
+    echo $user
+    history
